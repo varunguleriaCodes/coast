@@ -44,7 +44,7 @@ export default function TimeSlotForm() {
   const [copied, setCopied] = useState(false);
 
   const handleCopy = () => {
-    const linkToCopy = `https://coast-meet-updated.vercel.app/join/${coastId}`;
+    const linkToCopy = `https://coast-rust.vercel.app/join/${coastId}`;
     navigator.clipboard.writeText(linkToCopy).then(() => {
       setCopied(true);
       setTimeout(() => {

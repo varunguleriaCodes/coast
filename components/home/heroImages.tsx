@@ -48,7 +48,7 @@ const HeroImages = () => {
       >
         <div className="relative w-[160px] md:w-[220px] h-[220px] md:h-[280px] rounded-2xl overflow-hidden shadow-[0_10px_40px_rgba(0,0,0,0.3)] border border-white/20 backdrop-blur-sm bg-black/40">
           <Image
-            src="/kash(1).png"
+            src="/kash.png"
             alt="Creator profile"
             fill
             className="object-cover"
